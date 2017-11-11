@@ -22,14 +22,12 @@ client.on('message', (user, userId, channelID, message, event) => {
             return;
         }
         switch (cmd) {
-            // !ping
             case 'random':
                 client.sendMessage({
                     to: channelID,
-                    message: shuffle(args).slice(0, 4).join(', ') + " får spela"
+                    message: "```css\n The dream team is: " + shuffle(args).slice(0, 4).join(', ') + "\n```"
                 });
                 break;
-            // Just add any case commands if you want to..
         }
     }
 });
