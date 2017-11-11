@@ -1,0 +1,17 @@
+{
+  "name": "randombot",
+  "version": "1.0.0",
+  "description": "who gonna play!??",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "heldt",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.0"
+  }
+}
